@@ -13,6 +13,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="font-[Inter, sans-serif]">
     <header class="bg-[#1a0b2e] text-white">
@@ -44,7 +53,11 @@
         class="flex flex-col items-center justify-center bg-[url('./assets/hero-bg.png')] bg-center py-20 bg-no-repeat bg-cover"
       >
         <img class="pb-20" src="./assets/hero-circle.png" alt="" />
-        <img class="absolute top-58" src="./assets/microphone.png" alt="" />
+        <img
+          class="absolute top-58 animate-pulse"
+          src="./assets/microphone.png"
+          alt=""
+        />
         <img
           class="absolute top-40 right-12 lg:top-40 lg:right-145"
           src="./assets/Frame 2087326323.png"
@@ -109,7 +122,9 @@
             <p>EPISODES PUBLISHED</p>
           </div>
           <div>
-            <h1 class="text-[48px] font-extrabold text-[#00FF88]">4.9</h1>
+            <h1 class="text-[48px] font-extrabold text-[#00FF88]">
+              <span>4.9</span><i class="fa-solid fa-star"></i>
+            </h1>
             <p>AVERAGE RATING</p>
           </div>
           <div>
