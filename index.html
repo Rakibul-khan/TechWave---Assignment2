@@ -30,46 +30,21 @@
           <li>Host</li>
         </div>
         <button
-          class="hidden lg:block text-[18px] font-semibold rounded-3xl border-2 border-purple-600 px-3 py-2 text-white bg-purple-600"
+          class="hidden lg:flex text-[18px] items-center gap-2 font-semibold rounded-3xl px-3 py-2 text-white bg-linear-to-bl from-[#9100F8] via-[#FB09B4] to-[#F7E93F]"
         >
-          Subscribe
+          <span>Subscribe</span>
+          <div>
+            <img src="./assets/Vector (1).png" alt="" />
+          </div>
         </button>
         <img class="lg:hidden" src="./assets/hamburger-menu.png" alt="" />
       </nav>
 
       <div
-        class="relative py-10 px-2 bg-[url('./assets/hero-bg.png')] text-white w-full h-[800px]"
+        class="flex flex-col items-center justify-center bg-[url('./assets/hero-bg.png')] bg-center py-20 bg-no-repeat bg-cover"
       >
-        <img
-          class="relative bg-cover bg-no-repeat lg:left-[616px] top-10"
-          src="./assets/hero-circle.png"
-          alt=""
-        />
-        <img
-          class="absolute lg:left-[735px] top-[150px]"
-          src="./assets/microphone.png"
-          alt=""
-        />
-
-        <div class="flex flex-col items-center justify-center mt-20">
-          <h1 class="text-[60px] font-extrabold">TechWave</h1>
-          <p>
-            Your daily dose of tech insights, productivity hacks, and personal
-            growth
-          </p>
-          <div class="flex gap-3 items-center mt-5">
-            <button
-              class="font-semibold border-2 border-blue-600 rounded-3xl px-3 py-2"
-            >
-              Listen on Spotify
-            </button>
-            <button
-              class="font-semibold border-2 border-blue-600 rounded-3xl px-3 py-2"
-            >
-              Subscribe
-            </button>
-          </div>
-        </div>
+        <img class="pb-20" src="./assets/hero-circle.png" alt="" />
+        <img class="absolute top-58" src="./assets/microphone.png" alt="" />
       </div>
     </header>
     <main>
@@ -86,14 +61,14 @@
             productivity strategies that actually work,<br />
             and share stories of personal growth from industry leaders.
           </p>
-          <p class="text-center">
+          <p class="text-center pb-10">
             Join thousands of young professionals and tech enthusiasts who start
             their day with TechWave.
           </p>
         </div>
 
         <div
-          class="grid grid-cols-2 md:grid-cols-2 gap-3 lg:grid-cols-4 w-11/12 mx-auto justify-center justify-items-center"
+          class="grid grid-cols-2 md:grid-cols-2 gap-3 lg:grid-cols-4 w-11/12 mx-auto justify-center justify-items-center pt-15"
         >
           <div>
             <h1 class="text-[48px] font-extrabold text-[#00FF88]">150K+</h1>
@@ -327,7 +302,7 @@
       </section>
     </main>
     <footer
-      class="bg-[url('./assets/footer-bg.png')] bg-cover bg-no-repeat min-h-[400px] text-white"
+      class="bg-[url('./assets/footer-bg.png')] bg-center bg-cover bg-no-repeat min-h-[400px] text-white"
     >
       <div
         class="max-w-[450px flex justify-center items-center flex-col pt-[150px]"
